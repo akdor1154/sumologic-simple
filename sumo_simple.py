@@ -10,6 +10,10 @@ import math
 if TYPE_CHECKING:
     from .sumologic import SumoLogic
 
+__all__ = [
+    'SumoLogicSimple'
+]
+
 def _sumoTime(date = None):
     date = date or datetime.now(timezone.utc)
     return int(date.timestamp()*1000)
