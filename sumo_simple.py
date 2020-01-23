@@ -168,7 +168,7 @@ class SumoLogicSimple:
         elif isinstance(t, timedelta):
             return datetime.now(timezone.utc) + t
 
-    def search(self, query, startTime: Union[datetime, timedelta, None], endTime: Union[datetime, timedelta, None] = None, timeZone='UTC'):
+    def search(self, query, startTime: Union[datetime, timedelta, None], endTime: Union[datetime, timedelta, None] = None, timeZone='UTC') -> Tuple[dict, Iterable[dict], Iterable[dict]]:
         """
         Search Sumo with a given query, and return a streaming iterable of results.
 
