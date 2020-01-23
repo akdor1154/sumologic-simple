@@ -4,10 +4,16 @@ version = "0.1.0"
 description = "A simple interface to run SumoLogic queries"
 authors = ["Jarrad Whitaker <akdor1154@gmail.com>"]
 readme = "README.md"
-licence = "AGPLv3"
+license = "AGPLv3"
 packages = [
     { include = "sumo_simple.py" }
 ]
+keywords = ["sumo", "sumologic"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+include = ["LICENCE.txt"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
