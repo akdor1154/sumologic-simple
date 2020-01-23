@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sumologic-simple"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple interface to run SumoLogic queries"
 authors = ["Jarrad Whitaker <akdor1154@gmail.com>"]
 readme = "README.md"
