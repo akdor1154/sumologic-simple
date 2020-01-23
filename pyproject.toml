@@ -1,8 +1,10 @@
 [tool.poetry]
 name = "sumologic-simple"
 version = "0.1.0"
-description = ""
-authors = ["Jarrad Whitaker <JWhitaker@officeworks.com.au>"]
+description = "A simple interface to run SumoLogic queries"
+authors = ["Jarrad Whitaker <akdor1154@gmail.com>"]
+readme = "README.md"
+licence = "AGPLv3"
 packages = [
     { include = "sumo_simple.py" }
 ]
